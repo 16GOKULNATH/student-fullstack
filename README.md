@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Full Stack
 
 A full-stack Student Management application using React, Vite, Spring Boot, and MySQL.
@@ -54,3 +55,6 @@ The frontend runs at `http://localhost:5173`.
 ## Security
 
 Never commit real passwords or secret environment files. Use example configuration files with placeholders.
+=======
+# student-fullstack
+>>>>>>> c9f2a714e7544f21d3fa9ac674c54010e22492ab
