@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Student Full Stack
 
 A full-stack Student Management application using React, Vite, Spring Boot, and MySQL.
@@ -18,30 +17,20 @@ A full-stack Student Management application using React, Vite, Spring Boot, and 
 ## Backend Setup
 
 1. Create a MySQL database named `student_db`.
-2. Configure local database credentials in `application.properties`.
-3. Open a terminal in the `backend` directory.
-4. Run:
+2. Configure database credentials in `application.properties`.
+3. Open a terminal inside the `backend` directory.
+4. Run `mvn spring-boot:run`.
 
-   `mvn spring-boot:run`
-
-The backend runs at `http://localhost:8080`.
+Backend URL: `http://localhost:8080`
 
 ## Frontend Setup
 
-1. Open another terminal in the `frontend` directory.
-2. Install dependencies:
+1. Open a terminal inside the `frontend` directory.
+2. Run `npm install`.
+3. Create a `.env` file containing `VITE_API_URL=http://localhost:8080`.
+4. Run `npm run dev`.
 
-   `npm install`
-
-3. Create a local `.env` file containing:
-
-   `VITE_API_URL=http://localhost:8080`
-
-4. Start the frontend:
-
-   `npm run dev`
-
-The frontend runs at `http://localhost:5173`.
+Frontend URL: `http://localhost:5173`
 
 ## API Endpoints
 
@@ -55,6 +44,3 @@ The frontend runs at `http://localhost:5173`.
 ## Security
 
 Never commit real passwords or secret environment files. Use example configuration files with placeholders.
-=======
-# student-fullstack
->>>>>>> c9f2a714e7544f21d3fa9ac674c54010e22492ab
