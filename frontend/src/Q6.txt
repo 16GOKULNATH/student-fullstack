@@ -1,0 +1,10 @@
+node_modules
+target
+application.properties
+
+correct 
+
+node_modules/
+target/
+application.properties
+.env
